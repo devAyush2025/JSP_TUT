@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Resgistration</title>
+</head>
+<body>
+	 <form method="post" action="/loginServlet">
+        <table>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="uname" id=""></td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="pass" id=""></td>
+            </tr>
+
+            <tr>
+                <td><a href="index.html" value="Login"></a></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

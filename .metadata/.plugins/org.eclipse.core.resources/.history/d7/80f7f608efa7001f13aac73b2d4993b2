@@ -1,0 +1,22 @@
+package com.app.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class EmployeeDao {
+
+	
+	
+	public static Connection getConnection() throws ClassNotFoundException 
+	{
+		
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println("Driver found");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/employee","group025","welcome");
+			System.out.println("Connection established");
+			return con;
+
+		}
+		
+	}
+
