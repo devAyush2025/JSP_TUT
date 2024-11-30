@@ -8,7 +8,8 @@
     
     <beans>
     
-    	<bean id="sim" class="com.app.Vodafone"></bean>
+    	<bean id="sim1" class="com.app.Vodafone"></bean>
+    	<bean id="sim2" class="com.app.Airtel"></bean>
 
     </beans>
 
