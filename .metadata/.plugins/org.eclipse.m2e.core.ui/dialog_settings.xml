@@ -8,6 +8,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="dependency_injectionDemo"/>
 			<item value="spring_restdemo"/>
 			<item value="spring_mvc_formvalidation"/>
 			<item value="aopDemo"/>
@@ -22,7 +23,6 @@
 			<item value="hibernateEmp"/>
 			<item value="hiberDemo"/>
 			<item value="hibernateDemo"/>
-			<item value="HiberanteDemo"/>
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
