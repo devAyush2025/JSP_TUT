@@ -19,10 +19,16 @@ public class CoachRestController {
 
 //	@Autowired
 
-	public CoachRestController(@Qualifier("cricketCoach") Coach theCoach,@Qualifier("cricketCoach") Coach anotherCoach) {
+//	public CoachRestController(@Qualifier("cricketCoach") Coach theCoach,@Qualifier("cricketCoach") Coach anotherCoach) {
+//		super();
+//		this.theCoach = theCoach;
+//		this.anotherCoach = anotherCoach;
+//	}
+	
+	public CoachRestController(@Qualifier("tennisCoach") Coach theCoach) {
 		super();
 		this.theCoach = theCoach;
-		this.anotherCoach = anotherCoach;
+	
 	}
 @GetMapping("/check")
 	public String check() {
@@ -30,7 +36,8 @@ public class CoachRestController {
 		return "theCoach == anotherCoach =" +check;
 
 	}
-
+	
+	
 	public Coach getTheCoach() {
 		return theCoach;
 	}
